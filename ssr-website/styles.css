@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #121212; /* 더 진한 검정색 */
+    background-image: url("https://mail.google.com/mail/u/0?ui=2&ik=a39f759e41&attid=0.1.1&permmsgid=msg-f:1819157560899564385&th=193ef229cfe27361&view=fimg&fur=ip&permmsgid=msg-f:1819157560899564385&sz=s0-l75-ft&attbid=ANGjdJ-zb0MPH33mBraRumbgzOSFiuKgigrTe_f0AOgSS-LtO4Ncpq7EB9q4PGlaj_si1pXmrYTInXj7ZXSuAU-RZ3zw0r-43KxvHhTv0Ywpb6fcPnfeW7zEhECfqiA&disp=emb&zw"); /* 외부 이미지 경로 */
+    background-size: 100% 100%; /* 이미지 가로세로 비율 조정 */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; /* 이미지 화면 중앙 배치 */
+    color: #f0f0f0;
+    line-height: 1.6;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: rgba(58, 58, 58, 0.8); /* 반투명 네비게이션 바 */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    padding: 15px 30px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #e0e0e0;
+    margin: 0 20px;
+    font-size: 22px;
+    padding: 12px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #00bcd4;
+    color: #000;
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.logo img {
+    width: 48px;
+    height: 48px; /* 더 큰 크기 */
+}
+
+.content {
+    padding: 50px 20px;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    background: rgba(18, 18, 18, 0.8); /* 콘텐츠 배경 반투명 */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 18px;
+    color: #cccccc;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: rgba(58, 58, 58, 0.8);
+    color: #aaaaaa;
+    margin-top: 30px;
+}
+
+footer a {
+    color: #00bcd4;
+    text-decoration: none;
+}
